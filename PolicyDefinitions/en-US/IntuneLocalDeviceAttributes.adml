@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>Intune Local Device Attributes</displayName>
+  <description>Configure free-form local device attributes through Microsoft Intune.</description>
+  <resources>
+    <stringTable>
+      <string id="SUPPORTED_Windows10OrLater">Windows 10 or later</string>
+      <string id="IntuneLocalDeviceAttributes">Intune Local Device Attributes</string>
+      <string id="Attributes">Attributes</string>
+      <string id="AttributeExplain">Stores a free-form text value locally on the device. The administrator defines its meaning and accepted value. The value is available under HKLM\SOFTWARE\Policies\IntuneLocalDeviceAttributes. If the policy is disabled or not configured, the corresponding registry value is removed.</string>
+      <string id="Attribute01">Custom Attribute 01</string>
+      <string id="Attribute02">Custom Attribute 02</string>
+      <string id="Attribute03">Custom Attribute 03</string>
+      <string id="Attribute04">Custom Attribute 04</string>
+      <string id="Attribute05">Custom Attribute 05</string>
+      <string id="Attribute06">Custom Attribute 06</string>
+      <string id="Attribute07">Custom Attribute 07</string>
+      <string id="Attribute08">Custom Attribute 08</string>
+      <string id="Attribute09">Custom Attribute 09</string>
+      <string id="Attribute10">Custom Attribute 10</string>
+      <string id="Attribute11">Custom Attribute 11</string>
+      <string id="Attribute12">Custom Attribute 12</string>
+      <string id="Attribute13">Custom Attribute 13</string>
+      <string id="Attribute14">Custom Attribute 14</string>
+      <string id="Attribute15">Custom Attribute 15</string>
+      <string id="Attribute16">Custom Attribute 16</string>
+      <string id="Attribute17">Custom Attribute 17</string>
+      <string id="Attribute18">Custom Attribute 18</string>
+      <string id="Attribute19">Custom Attribute 19</string>
+      <string id="Attribute20">Custom Attribute 20</string>
+      <string id="Attribute21">Custom Attribute 21</string>
+      <string id="Attribute22">Custom Attribute 22</string>
+      <string id="Attribute23">Custom Attribute 23</string>
+      <string id="Attribute24">Custom Attribute 24</string>
+      <string id="Attribute25">Custom Attribute 25</string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="Attribute01">
+        <textBox refId="Attribute01Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute02">
+        <textBox refId="Attribute02Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute03">
+        <textBox refId="Attribute03Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute04">
+        <textBox refId="Attribute04Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute05">
+        <textBox refId="Attribute05Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute06">
+        <textBox refId="Attribute06Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute07">
+        <textBox refId="Attribute07Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute08">
+        <textBox refId="Attribute08Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute09">
+        <textBox refId="Attribute09Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute10">
+        <textBox refId="Attribute10Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute11">
+        <textBox refId="Attribute11Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute12">
+        <textBox refId="Attribute12Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute13">
+        <textBox refId="Attribute13Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute14">
+        <textBox refId="Attribute14Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute15">
+        <textBox refId="Attribute15Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute16">
+        <textBox refId="Attribute16Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute17">
+        <textBox refId="Attribute17Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute18">
+        <textBox refId="Attribute18Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute19">
+        <textBox refId="Attribute19Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute20">
+        <textBox refId="Attribute20Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute21">
+        <textBox refId="Attribute21Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute22">
+        <textBox refId="Attribute22Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute23">
+        <textBox refId="Attribute23Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute24">
+        <textBox refId="Attribute24Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+      <presentation id="Attribute25">
+        <textBox refId="Attribute25Value">
+          <label>Value:</label>
+        </textBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>
+
