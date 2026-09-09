@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="ilda" namespace="RoryVossepoel.IntuneLocalDeviceAttributes.Policies" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <resources minRequiredRevision="1.0" />
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_Windows10OrLater" displayName="$(string.SUPPORTED_Windows10OrLater)" />
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category name="IntuneLocalDeviceAttributes" displayName="$(string.IntuneLocalDeviceAttributes)" />
+    <category name="Attributes" displayName="$(string.Attributes)">
+      <parentCategory ref="IntuneLocalDeviceAttributes" />
+    </category>
+  </categories>
+  <policies>
+    <policy name="Attribute01" class="Machine" displayName="$(string.Attribute01)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute01)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute01Value" valueName="Attribute01" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute02" class="Machine" displayName="$(string.Attribute02)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute02)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute02Value" valueName="Attribute02" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute03" class="Machine" displayName="$(string.Attribute03)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute03)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute03Value" valueName="Attribute03" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute04" class="Machine" displayName="$(string.Attribute04)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute04)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute04Value" valueName="Attribute04" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute05" class="Machine" displayName="$(string.Attribute05)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute05)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute05Value" valueName="Attribute05" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute06" class="Machine" displayName="$(string.Attribute06)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute06)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute06Value" valueName="Attribute06" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute07" class="Machine" displayName="$(string.Attribute07)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute07)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute07Value" valueName="Attribute07" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute08" class="Machine" displayName="$(string.Attribute08)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute08)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute08Value" valueName="Attribute08" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute09" class="Machine" displayName="$(string.Attribute09)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute09)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute09Value" valueName="Attribute09" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute10" class="Machine" displayName="$(string.Attribute10)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute10)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute10Value" valueName="Attribute10" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute11" class="Machine" displayName="$(string.Attribute11)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute11)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute11Value" valueName="Attribute11" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute12" class="Machine" displayName="$(string.Attribute12)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute12)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute12Value" valueName="Attribute12" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute13" class="Machine" displayName="$(string.Attribute13)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute13)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute13Value" valueName="Attribute13" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute14" class="Machine" displayName="$(string.Attribute14)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute14)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute14Value" valueName="Attribute14" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute15" class="Machine" displayName="$(string.Attribute15)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute15)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute15Value" valueName="Attribute15" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute16" class="Machine" displayName="$(string.Attribute16)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute16)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute16Value" valueName="Attribute16" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute17" class="Machine" displayName="$(string.Attribute17)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute17)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute17Value" valueName="Attribute17" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute18" class="Machine" displayName="$(string.Attribute18)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute18)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute18Value" valueName="Attribute18" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute19" class="Machine" displayName="$(string.Attribute19)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute19)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute19Value" valueName="Attribute19" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute20" class="Machine" displayName="$(string.Attribute20)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute20)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute20Value" valueName="Attribute20" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute21" class="Machine" displayName="$(string.Attribute21)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute21)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute21Value" valueName="Attribute21" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute22" class="Machine" displayName="$(string.Attribute22)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute22)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute22Value" valueName="Attribute22" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute23" class="Machine" displayName="$(string.Attribute23)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute23)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute23Value" valueName="Attribute23" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute24" class="Machine" displayName="$(string.Attribute24)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute24)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute24Value" valueName="Attribute24" required="true" />
+      </elements>
+    </policy>
+    <policy name="Attribute25" class="Machine" displayName="$(string.Attribute25)" explainText="$(string.AttributeExplain)" presentation="$(presentation.Attribute25)" key="Software\Policies\IntuneLocalDeviceAttributes">
+      <parentCategory ref="Attributes" />
+      <supportedOn ref="SUPPORTED_Windows10OrLater" />
+      <elements>
+        <text id="Attribute25Value" valueName="Attribute25" required="true" />
+      </elements>
+    </policy>
+  </policies>
+</policyDefinitions>
+
